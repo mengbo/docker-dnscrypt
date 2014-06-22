@@ -11,6 +11,9 @@ build:
 	docker build -t $(REGISTRYHOST)$(USERNAME)/$(NAME) .
 
 run: clean
+	# Don't forget to disable dnsmasq.
+	# Please edit /etc/NetworkManager/NetworkManager.conf,
+	# and restart network-manager.
 	docker run --name $(NAME) -d -p 53:53 -p 53:53/udp $(USERNAME)/$(NAME)
 
 bash: clean
