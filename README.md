@@ -6,11 +6,11 @@ docker-dnscrypt
 
 ## Image Creation
 
-This example creates the image with the tag `mengbo/dnscrypt`, but you can
+This example creates the image with the tag `mengbo/docker-dnscrypt`, but you can
 change this to use your own username.
 
 ```
-$ docker build -t="mengbo/dnscrypt" .
+$ docker build -t="mengbo/docker-dnscrypt" .
 ```
 
 Alternately, you can run the following if you have *make* installed...

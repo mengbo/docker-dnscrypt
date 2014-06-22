@@ -1,4 +1,4 @@
-NAME=dnscrypt
+NAME=docker-dnscrypt
 REGISTRYHOST=
 USERNAME=mengbo
 
