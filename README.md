@@ -20,3 +20,8 @@ $ make
 ```
 
 You can also specify custom variables by change the Makefile.
+
+
+## Environment variables
+
+ - `RESOLVER_NAME`: Resolver name of dnscrypt. Default: `opendns`

@@ -24,7 +24,10 @@ RUN mkdir -p /usr/local/src;\
   ./configure && make -j2;\
   make install
 
+ADD run.sh /run.sh
+RUN chmod +x /run.sh
+
 EXPOSE 53
 EXPOSE 53/udp
 
-CMD /usr/local/sbin/dnscrypt-proxy --local-address=0.0.0.0:53 --resolver-name=opendns
+CMD ["/run.sh"]
