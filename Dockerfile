@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Meng Bo "mengbo@lnu.edu.cn"
 
-RUN echo "deb http://cn.archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get -y install curl build-essential
 
