@@ -22,10 +22,10 @@ You can also specify custom variables by change the Makefile.
 
 You can run it by the following command...
 
-
 ```
 $ docker run --name docker-dnscrypt -d -p 53:53 -p 53:53/udp mengbo/docker-dnscrypt
 ```
+
 
 ## Environment variables
 
